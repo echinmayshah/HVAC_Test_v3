@@ -93,10 +93,10 @@ uint16_t MCU_TempSensorCalc(uint16_t ADCResult)
 	{
 		divisor = 16.427272;
 	}	
-	else if(ADCResult <= 1947 && ADCResult > 1669)	//120 and above
+/*dev_0_0-1th	else if(ADCResult <= 1947 && ADCResult > 1669)	//120 and above
 	{
 		divisor = 18.248f;
-	}	
+	}	*/
 /*dev_0_0-0th	else 
 	{
 		return(130);
