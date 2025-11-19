@@ -97,10 +97,10 @@ uint16_t MCU_TempSensorCalc(uint16_t ADCResult)
 	{
 		divisor = 18.248f;
 	}
-	else 
+	/*1th commit_in_dev_0_0	else 
 	{
 		return(130);
-	}
+	}	*/
 
 	return ((uint16_t)((4049 - ADCResult)/divisor));
 }
